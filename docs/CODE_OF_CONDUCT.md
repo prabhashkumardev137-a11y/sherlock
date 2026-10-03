@@ -2,6 +2,12 @@
 
 ## Our Pledge
 
+
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_al|
+
+
 We as members, contributors, and leaders pledge to make participation in our
 community a harassment-free experience for everyone, regardless of age, body
 size, visible or invisible disability, ethnicity, sex characteristics, gender
